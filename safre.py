@@ -3,7 +3,7 @@ import sys
 
 print("safre v. 1.0.1 created by interpunch aka squiddr")
 
-platform = input("Enter the use of the password: ")
+platform = input("Enter the platform of the password: ")
 notes = input("\nEnter any notes here(Enter to skip): ")
 date = input("Enter Date(Enter to skip))")
 
