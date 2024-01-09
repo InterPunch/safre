@@ -20,5 +20,5 @@ password = ''.join(combined_list)
 print("Your new password is, " + password)
 print("https://github.com/InterPunch/safre")
 
-with open('text.txt', 'w') as file:
+with open(platform+'.txt', 'w') as file:
   file.write(platform + "\n" + password + "\nNotes: " + notes + "\n" + date)
